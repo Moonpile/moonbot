@@ -1,0 +1,26 @@
+{
+  "name": "Botkit Starter Kit",
+  "description": "A starting point for building custom Slack applications",
+  "repository": "https://github.com/howdyai/botkit-starter-slack",
+  "keywords": ["node", "bots", "slack","botkit"],
+  "website": "https://studio.botkit.ai/",
+  "success_url":"/",
+  "addons":[
+    {
+      "plan": "mongolab",
+      "as": "MONGO"
+    }
+  ],
+  "env": {
+      "clientId": {
+          "description": "273179389381.272522209153"
+      },
+      "clientSecret": {
+          "description": "3a50d9ded90e617f6ebc67b0e1c067cd"
+      },
+      "studio_token": {
+          "description": "vexQpuAHPp7nQmwAp3atAFSI5VXmV4cFclAYgNmIDUplo69FxnAf9wiFZMG7Vrnf",
+          "required":false
+      }
+  }
+}
